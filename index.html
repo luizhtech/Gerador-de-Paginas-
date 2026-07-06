@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+        <section class="painel">
+            <h1>Gerador de Landing Page</h1>
+
+            <textarea 
+                class="texto-pagina" 
+                placeholder="Descreva o negócio. Ex: uma estamparia personalizada chamada M&B Produções..."
+            ></textarea>
+
+            <button class="botao-gerar" type="button">
+                Gerar página
+            </button>
+        </section>
+
+        <section class="resultado">
+            <div class="codigo-area">
+                <h2>Código gerado</h2>
+                <pre class="bloco-codigo"></pre>
+            </div>
+
+            <div class="site-area">
+                <h2>Prévia do site</h2>
+                <iframe class="bloco-site"></iframe>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

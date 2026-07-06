@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111827;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 32px;
+}
+
+.painel {
+    max-width: 900px;
+    margin: 0 auto 32px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.texto-pagina {
+    width: 100%;
+    height: 160px;
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    resize: vertical;
+    font-size: 16px;
+}
+
+.botao-gerar {
+    margin-top: 16px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 999px;
+    background: #22c55e;
+    color: #052e16;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.resultado {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.codigo-area,
+.site-area {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.bloco-codigo {
+    min-height: 500px;
+    max-height: 700px;
+    overflow: auto;
+    background: #030712;
+    padding: 16px;
+    border-radius: 12px;
+    white-space: pre-wrap;
+    color: #d1d5db;
+}
+
+.bloco-site {
+    width: 100%;
+    height: 700px;
+    border: none;
+    border-radius: 12px;
+    background: white;
+}
